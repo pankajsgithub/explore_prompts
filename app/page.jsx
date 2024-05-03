@@ -1,3 +1,4 @@
+import Feed from "@components/Feed"
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
         <span className="orange_gradient text-center"> AI powered promts </span>
       </h1>
       <p className="desc text-center">Exploria Domain is an open source AI tool to discover modern tools via creative prompts</p>
+      <Feed/>
     </section>
   )
 }
